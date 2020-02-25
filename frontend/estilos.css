@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0;
+    background-color: #44773ece; /* cor fundo do site 'cinza' */
+    color: rgba(0,0,0,1);
+ }
+ 
+ nav#menu {
+    display: block;
+  }
+  
+  nav#menu ul {
+     list-style: none;
+     text-transform: uppercase;  
+      position: absolute; 
+      top: -20px;
+      left: 600px;
+  }
+  
+  nav#menu li {
+      display: inline-block;
+      background-color: #dddddd;
+      padding: 10px;
+      margin: 2px;
+      transition: background-color 1s; /* tempo da sombra nos botões do menu */
+      -webkit-transition: background-color 1s;
+      -moz-transition: background-color 1s;
+      -ms-transition: background-color 1s;
+      -o-transition: background-color 1s;
+  }
+  
+  nav#menu li:hover {
+    background-color: #606060; /* sombra ao passar o mouse no menu */
+  }
+  
+  nav#menu h1 {
+      display: none;
+  }
+  
+  nav#menu a {
+      color: #000000; /* cor letra do menu 'preta' */
+      text-decoration: none; 
+  }
+  
+  nav#menu a:hover {
+      color: #ffffff; /* cor link ativo sobre mouse */
+      text-decoration: underline; /* menu fica sublinhado ao passar o mouse */
+  }
+
+  div#capa{
+    margin-top: -127px;
+    margin-right: 0px; 
+    margin-left: 0px;
+    width: 100%;
+    float:right;
+    
+}
+
+#capa img {
+    width: 100%;
+
+}
+
+main {
+    text-align: center;
+}
+
+.vencedores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#rodape {
+    text-align: center;
+    clear: both;
+	border-top: 1px solid #606060;
+}
