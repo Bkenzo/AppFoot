@@ -1,0 +1,12 @@
+*{
+  font-family: 'roboto';
+}
+
+.img-background{
+  background-image: url("../imagens/imagem_capa.jpg");
+  border: solid 1px red;
+}
+
+.confrontos{
+  margin: auto;
+}
