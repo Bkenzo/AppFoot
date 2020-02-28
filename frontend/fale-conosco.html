@@ -1,21 +1,25 @@
 <section class="form">
-    <h2>Mande sua dúvida</h2>
+    <h2 class="faleconosco">Nós Envie sua Dúvida!</h2>
     <form action="/">
-        <input 
-            type="text"
-            name="name"
-            placeholder="Nome Completo"
-        >
-        <input 
-            type="text"
-            name="email"
-            placeholder="Email"
-        >
-        <input 
-            type="number"
-            name="senha"
-            placeholder="senha"
-        >
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Nome</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu nome">
+         </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="digite sua senha">
+                </div>
+            </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        
        <button type="submit">Enviar</button>
     </form>
 
